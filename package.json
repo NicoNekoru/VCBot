@@ -1,0 +1,21 @@
+{
+	"name": "nutbot",
+	"version": "2.1.1",
+	"description": "discord bot",
+	"main": "main.js",
+	"dependencies": {
+		"discord.js": "12.5.1"
+	},
+	"devDependencies": {},
+	"scripts": {
+		"start": "powershell -command Set-ExecutionPolicy -ExecutionPolicy Bypass -Scope Process -Force; ./scripts/startNOW.ps1",
+		"stop": "powershell -command Set-ExecutionPolicy -ExecutionPolicy Bypass -Scope Process -Force; ./scripts/stahpplease.ps1",
+		"status": "pm2 status main",
+		"build": "powershell -command Set-ExecutionPolicy -ExecutionPolicy Bypass -Scope Process -Force; ./scripts/WECANBUILDIT.ps1",
+		"fix": "powershell -command Set-ExecutionPolicy -ExecutionPolicy Bypass -Scope Process -Force; ./scripts/sumtingbork.ps1",
+		"reset": "powershell -command Set-ExecutionPolicy -ExecutionPolicy Bypass -Scope Process -Force; ./scripts/reducedtoatoms.ps1",
+		"squeanut": "powershell -command Set-ExecutionPolicy -ExecutionPolicy Bypass -Scope Process -Force; ./scripts/gibSQUEEEEE.ps1"
+	},
+	"author": "Lizard and AsianAreAsian",
+	"license": "ISC"
+}
